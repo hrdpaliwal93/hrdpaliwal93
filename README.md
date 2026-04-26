@@ -151,48 +151,9 @@ const hardik = {
 
 ---
 
-## 🏆 GitHub Trophies
 
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=hrdpaliwal93&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" width="100%"/>
-</div>
 
----
 
-## 📌 Featured Projects
-
-> 💡 _Replace these cards with your actual repos — the structure is ready to go_
-
-### 🤖 Project 1 — `[repo-name]`
-> _One punchy line describing what it does_
-
-**Stack:** `Python` · `LangGraph` · `FastAPI` · `React` · `ChromaDB`
-**About:** What problem does it solve? What's the AI doing inside it?
-
-[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hrdpaliwal93/YOUR_REPO)
-[![Live](https://img.shields.io/badge/Live_Demo-00d9ff?style=for-the-badge&logo=vercel&logoColor=black)](https://your-demo-link.com)
-
----
-
-### 🧩 Project 2 — `[repo-name]`
-> _One punchy line describing what it does_
-
-**Stack:** `Node.js` · `OpenAI` · `MongoDB` · `Next.js`
-**About:** What problem does it solve?
-
-[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hrdpaliwal93/YOUR_REPO)
-
----
-
-### 🔗 Project 3 — `[repo-name]`
-> _One punchy line describing what it does_
-
-**Stack:** `Python` · `CrewAI` · `LangChain` · `Pinecone` · `FastAPI`
-**About:** What does the agent do? What's the workflow?
-
-[![Repo](https://img.shields.io/badge/View_Repo-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hrdpaliwal93/YOUR_REPO)
-
----
 
 ## 📚 Learning Log
 
