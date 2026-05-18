@@ -1,203 +1,259 @@
-\documentclass[11pt,a4paper]{article}
+```latex
+\documentclass[a4paper,11pt]{article}
 
-\usepackage[a4paper,margin=0.8in]{geometry}
+\usepackage[margin=0.5in]{geometry}
 \usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usepackage{tcolorbox}
+\usepackage{fontawesome5}
+\usepackage{graphicx}
 \usepackage{titlesec}
+\usepackage{multicol}
 \usepackage{enumitem}
 \usepackage{hyperref}
+\usepackage{pagecolor}
 \usepackage{tabularx}
-\usepackage{tcolorbox}
-\usepackage{graphicx}
-\usepackage{array}
-\usepackage{setspace}
 
-\hypersetup{
-    colorlinks=true,
-    linkcolor=cyan,
-    urlcolor=cyan
-}
+% ================= COLORS =================
 
 \definecolor{bg}{HTML}{0D1117}
+\definecolor{card}{HTML}{161B22}
 \definecolor{primary}{HTML}{00D9FF}
 \definecolor{text}{HTML}{C9D1D9}
+\definecolor{muted}{HTML}{8B949E}
 \definecolor{accent}{HTML}{FF6B6B}
 
 \pagecolor{bg}
 \color{text}
 
+\pagestyle{empty}
+
+% ================= LINKS =================
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=primary
+}
+
+% ================= SECTION STYLE =================
+
 \titleformat{\section}
 {\Large\bfseries\color{primary}}
 {}
 {0em}
-{}[\titlerule]
+{}
 
-\setlist[itemize]{noitemsep, topsep=3pt}
+% ================= BOX STYLE =================
+
+\tcbset{
+    cardstyle/.style={
+        colback=card,
+        colframe=card,
+        arc=6pt,
+        boxrule=0pt,
+        left=12pt,
+        right=12pt,
+        top=10pt,
+        bottom=10pt
+    }
+}
 
 \begin{document}
 
-% ================= HEADER =================
+% =================================================
+% HERO SECTION
+% =================================================
 
 \begin{center}
 
+\vspace*{0.5cm}
+
 {\Huge \textbf{\textcolor{primary}{Hardik Paliwal}}}
 
-\vspace{0.3cm}
+\vspace{0.2cm}
 
 {\Large Full Stack Developer $\rightarrow$ Applied AI Engineer}
 
 \vspace{0.5cm}
 
-\href{https://github.com/hrdpaliwal93}{GitHub}
-\quad | \quad
-\href{https://linkedin.com/in/YOUR_LINKEDIN}{LinkedIn}
-\quad | \quad
-\href{mailto:your@email.com}{Email}
-\quad | \quad
-India 🇮🇳
-
-\vspace{0.4cm}
-
-\textit{
-Building systems that don't just run — they think, plan \& act.
+\textcolor{muted}{
+Building systems that think, plan, and act autonomously.
 }
+
+\vspace{0.6cm}
+
+\faGithub \hspace{0.2cm}
+\href{https://github.com/hrdpaliwal93}{github.com/hrdpaliwal93}
+\hspace{1cm}
+\faLinkedin \hspace{0.2cm}
+LinkedIn
+\hspace{1cm}
+\faEnvelope \hspace{0.2cm}
+Email
+
+\vspace{0.8cm}
 
 \end{center}
 
-\vspace{0.5cm}
+% =================================================
+% ABOUT
+% =================================================
 
-% ================= ABOUT =================
+\begin{tcolorbox}[cardstyle]
 
-\section*{🧠 About Me}
+{\Large \textbf{\textcolor{primary}{🧠 About Me}}}
 
-\begin{tcolorbox}[
-colback=black,
-colframe=primary,
-arc=3mm
-]
+\vspace{0.4cm}
 
-\begin{itemize}
-    \item Full Stack Developer transitioning deeply into Applied AI and Agentic Systems
-    \item Experience building production-grade applications across frontend, backend, databases, and infrastructure
-    \item Currently focused on LLMs, AI Agents, RAG Systems, and autonomous workflows
-    \item Interested in building AI systems capable of reasoning, planning, memory, and tool usage
-    \item Philosophy: \textbf{Ship fast. Learn faster. Let AI handle the heavy lifting.}
+I started as a Full Stack Developer building production-grade applications.
+
+Now I’m deeply focused on:
+\begin{itemize}[leftmargin=*]
+    \item AI Agents
+    \item LLM Engineering
+    \item RAG Systems
+    \item Agentic AI Workflows
+    \item Autonomous Systems
 \end{itemize}
 
+\textcolor{accent}{
+Ship fast. Learn faster. Let AI do the heavy lifting.
+}
+
 \end{tcolorbox}
+
+\vspace{0.4cm}
+
+% =================================================
+% TWO COLUMN SECTION
+% =================================================
+
+\begin{multicols}{2}
+
+% ================= LEFT =================
+
+\begin{tcolorbox}[cardstyle]
+
+{\large \textbf{\textcolor{primary}{🚀 Current Focus}}}
 
 \vspace{0.3cm}
 
-\textbf{\textcolor{accent}{“I started as a Full Stack developer and fell deep into Applied AI.”}}
+\textbf{AI Agents}
 
-Now focused on building intelligent systems that reason, plan, and act autonomously — not just respond.
+ReAct loops, memory systems, planning
 
-% ================= CURRENT INTERESTS =================
+\vspace{0.3cm}
 
-\section*{🚀 What I'm Currently Exploring}
+\textbf{LLM Engineering}
 
-\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{4cm}|X|}
-\hline
-\textbf{Area} & \textbf{Focus} \\
-\hline
-AI Agents & ReAct loops, tool usage, autonomous planning, memory systems \\
-\hline
-LLM Engineering & Prompt engineering, evaluations, structured outputs, fine-tuning \\
-\hline
-Agentic AI & LangGraph, CrewAI, multi-agent orchestration \\
-\hline
-RAG Systems & Vector databases, chunking, retrieval pipelines, hybrid search \\
-\hline
-Applied AI & Shipping real-world AI-powered products end-to-end \\
-\hline
-Research & Long-horizon reasoning, memory architectures, self-reflection \\
-\hline
-\end{tabularx}
+Prompting, evals, structured outputs
 
-% ================= TECH STACK =================
+\vspace{0.3cm}
 
-\section*{🛠️ Tech Stack}
+\textbf{RAG}
 
-\subsection*{🌐 Frontend}
-React • Next.js • TypeScript • JavaScript • Tailwind CSS • HTML5 • CSS3
+Vector DBs, retrieval pipelines
 
-\subsection*{⚙️ Backend}
-Node.js • Express.js • Python • FastAPI • REST APIs
+\vspace{0.3cm}
 
-\subsection*{🗄️ Databases}
-MongoDB • PostgreSQL • MySQL • Redis • Supabase
+\textbf{Agentic AI}
 
-\subsection*{🤖 AI / LLM Stack}
-OpenAI • Claude • LangChain • LangGraph • CrewAI • Hugging Face • Ollama • Pinecone • ChromaDB • FAISS
-
-\subsection*{☁️ DevOps \& Tools}
-Docker • GitHub Actions • AWS • Vercel • Git • Linux • VS Code • Postman
-
-% ================= LEARNING LOG =================
-
-\section*{📚 Learning Log}
-
-\begin{tcolorbox}[
-colback=black,
-colframe=accent,
-arc=3mm
-]
-
-\begin{itemize}
-    \item Currently Reading → Add books, papers, and AI research
-    \item Practicing → Building autonomous AI agents and workflows
-    \item Experimenting → LangGraph multi-agent memory loops
-    \item Following → Andrej Karpathy, Andrew Ng, Harrison Chase
-    \item 2025 Goal → Ship 3 AI-powered products from scratch
-\end{itemize}
+LangGraph, CrewAI, orchestration
 
 \end{tcolorbox}
 
-% ================= ROADMAP =================
+\vspace{0.4cm}
 
-\section*{💡 AI Journey Roadmap}
+\begin{tcolorbox}[cardstyle]
 
-\begin{itemize}
-    \item ✅ Full Stack mastery — React, Node.js, Databases, APIs
-    \item ✅ Python for AI/ML
-    \item ✅ Prompt Engineering fundamentals
-    \item 🔄 LangChain \& RAG pipelines
-    \item 🔄 LangGraph \& agentic workflows
-    \item ⏳ Multi-agent systems (CrewAI, AutoGen)
-    \item ⏳ LLM fine-tuning \& evaluations
-    \item ⏳ Deploying AI agents at production scale
-    \item ⏳ Building AI-native SaaS products
-\end{itemize}
+{\large \textbf{\textcolor{primary}{📚 Learning}}}
 
-% ================= GITHUB =================
+\vspace{0.3cm}
 
-\section*{📊 GitHub Focus}
+• LangGraph memory architectures
 
-\begin{itemize}
-    \item Building AI-powered full stack products
-    \item Experimenting with autonomous agent systems
-    \item Learning advanced Applied AI engineering concepts
-    \item Exploring production-grade RAG architectures
-    \item Developing scalable AI-native workflows
-\end{itemize}
+• Multi-agent workflows
 
-\vspace{0.5cm}
+• Long horizon reasoning
 
-% ================= FOOTER =================
+• AI-native SaaS systems
+
+\end{tcolorbox}
+
+% ================= RIGHT =================
+
+\columnbreak
+
+\begin{tcolorbox}[cardstyle]
+
+{\large \textbf{\textcolor{primary}{🛠 Tech Stack}}}
+
+\vspace{0.3cm}
+
+\textbf{Frontend}
+
+React • Next.js • TypeScript
+
+\vspace{0.3cm}
+
+\textbf{Backend}
+
+Node.js • Python • FastAPI
+
+\vspace{0.3cm}
+
+\textbf{AI Stack}
+
+LangChain • LangGraph • OpenAI
+
+\vspace{0.3cm}
+
+\textbf{Infra}
+
+Docker • AWS • GitHub Actions
+
+\end{tcolorbox}
+
+\vspace{0.4cm}
+
+\begin{tcolorbox}[cardstyle]
+
+{\large \textbf{\textcolor{primary}{🎯 2025 Goals}}}
+
+\vspace{0.3cm}
+
+✅ Build 3 AI-powered products
+
+✅ Master agentic workflows
+
+✅ Deploy production AI systems
+
+⏳ Build AI-native SaaS
+
+\end{tcolorbox}
+
+\end{multicols}
+
+\vspace{0.4cm}
+
+% =================================================
+% FOOTER
+% =================================================
 
 \begin{center}
 
-\rule{0.7\linewidth}{0.5pt}
+\vspace{0.5cm}
 
-\vspace{0.3cm}
-
-\textit{
-“The best engineers don't just write code — they build systems that think.”
+\textcolor{muted}{
+"The best engineers don't just write code —
+they build systems that think."
 }
 
-\vspace{0.3cm}
+\vspace{0.5cm}
 
-⭐ If any of my work helps you, a star on GitHub genuinely means a lot.
+⭐ If my work helps you, a GitHub star genuinely means a lot.
 
 \end{center}
 
 \end{document}
+```
