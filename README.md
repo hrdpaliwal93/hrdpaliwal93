@@ -1,212 +1,203 @@
-<div align="center">
+\documentclass[11pt,a4paper]{article}
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hardik%20Paliwal&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%E2%86%92%20Applied%20AI%20Engineer&descAlignY=58&descAlign=50" width="100%"/>
+\usepackage[a4paper,margin=0.8in]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{setspace}
 
-<br/>
+\hypersetup{
+    colorlinks=true,
+    linkcolor=cyan,
+    urlcolor=cyan
+}
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=Hey+there!+I'm+Hardik+%F0%9F%91%8B;Full+Stack+Developer+%7C+Real+Products+Shipped+%E2%9C%85;Now+going+deep+on+Applied+AI+%F0%9F%A4%96;Building+with+LLMs+%7C+Agents+%7C+RAG;Agentic+AI+is+the+future+%E2%80%94+I'm+building+it+%F0%9F%9A%80" alt="Typing SVG" />
-</a>
+\definecolor{bg}{HTML}{0D1117}
+\definecolor{primary}{HTML}{00D9FF}
+\definecolor{text}{HTML}{C9D1D9}
+\definecolor{accent}{HTML}{FF6B6B}
 
-<br/><br/>
+\pagecolor{bg}
+\color{text}
 
-<img src="https://komarev.com/ghpvc/?username=hrdpaliwal93&style=for-the-badge&color=00d9ff&labelColor=0d1117&label=PROFILE+VIEWS" alt="Profile Views"/>
-&nbsp;
-<a href="https://github.com/hrdpaliwal93?tab=followers">
-  <img src="https://img.shields.io/github/followers/hrdpaliwal93?style=for-the-badge&color=00d9ff&labelColor=0d1117&logo=github&label=FOLLOWERS" alt="Followers"/>
-</a>
-&nbsp;
-<img src="https://img.shields.io/badge/Focus-Applied%20AI%20%26%20Agents-ff6b6b?style=for-the-badge&labelColor=0d1117" />
-&nbsp;
-<img src="https://img.shields.io/badge/Based%20In-India%20%F0%9F%87%AE%F0%9F%87%B3-00d9ff?style=for-the-badge&labelColor=0d1117" />
+\titleformat{\section}
+{\Large\bfseries\color{primary}}
+{}
+{0em}
+{}[\titlerule]
 
-</div>
+\setlist[itemize]{noitemsep, topsep=3pt}
 
----
-
-## 🧠 About Me
-
-```ts
-const hardik = {
-  username    : "hrdpaliwal93",
-  role        : "Full Stack Developer → Applied AI Engineer",
-  location    : "India 🇮🇳",
-  background  : "Production-grade full stack apps — frontend to backend to infra",
-  currentMode : "Going all-in on LLMs, Agents & Agentic AI 🤖",
-  interests   : ["AI Agents", "LLM Engineering", "RAG Systems", "Agentic Workflows", "MCP"],
-  building    : "Systems that don't just run — they think, plan & act",
-  philosophy  : "Ship fast. Learn faster. Let the AI do the heavy lifting.",
-  funFact     : "Went from writing REST APIs to orchestrating AI agents. Best pivot ever. 🚀",
-};
-```
+\begin{document}
 
-> 🔥 **I started as a Full Stack dev and fell deep into Applied AI.**
-> Now I'm obsessed with building systems that *reason*, *plan*, and *act autonomously* — not just respond.
+% ================= HEADER =================
 
----
+\begin{center}
 
-## 🚀 What I'm Currently Into
+{\Huge \textbf{\textcolor{primary}{Hardik Paliwal}}}
 
-<div align="center">
+\vspace{0.3cm}
 
-| 🧩 Area | 🔍 What I'm Exploring |
-|--------|----------------------|
-| 🤖 **AI Agents** | ReAct loops, tool-use, autonomous planning & memory |
-| 🧠 **LLM Engineering** | Prompt engineering, evals, fine-tuning, structured outputs |
-| 🔗 **Agentic AI** | Multi-agent orchestration, LangGraph, CrewAI |
-| 📚 **RAG Systems** | Vector DBs, chunking strategies, hybrid search |
-| 🛠️ **Applied AI** | Shipping real AI-powered products end-to-end |
-| 🔭 **Research** | Long-horizon reasoning, agent memory, self-reflection |
+{\Large Full Stack Developer $\rightarrow$ Applied AI Engineer}
 
-</div>
+\vspace{0.5cm}
 
----
+\href{https://github.com/hrdpaliwal93}{GitHub}
+\quad | \quad
+\href{https://linkedin.com/in/YOUR_LINKEDIN}{LinkedIn}
+\quad | \quad
+\href{mailto:your@email.com}{Email}
+\quad | \quad
+India 🇮🇳
 
-## 🛠️ Tech Stack
+\vspace{0.4cm}
 
-### 🌐 Frontend
-<div align="left">
+\textit{
+Building systems that don't just run — they think, plan \& act.
+}
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+\end{center}
 
-</div>
+\vspace{0.5cm}
 
-### ⚙️ Backend
-<div align="left">
+% ================= ABOUT =================
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-02569B?style=for-the-badge&logo=fastapi&logoColor=white)
+\section*{🧠 About Me}
 
-</div>
+\begin{tcolorbox}[
+colback=black,
+colframe=primary,
+arc=3mm
+]
 
-### 🗄️ Databases
-<div align="left">
+\begin{itemize}
+    \item Full Stack Developer transitioning deeply into Applied AI and Agentic Systems
+    \item Experience building production-grade applications across frontend, backend, databases, and infrastructure
+    \item Currently focused on LLMs, AI Agents, RAG Systems, and autonomous workflows
+    \item Interested in building AI systems capable of reasoning, planning, memory, and tool usage
+    \item Philosophy: \textbf{Ship fast. Learn faster. Let AI handle the heavy lifting.}
+\end{itemize}
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+\end{tcolorbox}
 
-</div>
+\vspace{0.3cm}
 
-### 🤖 AI / LLM Stack ← *This is where I live now*
-<div align="left">
+\textbf{\textcolor{accent}{“I started as a Full Stack developer and fell deep into Applied AI.”}}
 
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic_Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=00d9ff)
-![CrewAI](https://img.shields.io/badge/CrewAI-FF6B6B?style=for-the-badge&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+Now focused on building intelligent systems that reason, plan, and act autonomously — not just respond.
 
-</div>
+% ================= CURRENT INTERESTS =================
 
-### ☁️ DevOps & Tools
-<div align="left">
+\section*{🚀 What I'm Currently Exploring}
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{4cm}|X|}
+\hline
+\textbf{Area} & \textbf{Focus} \\
+\hline
+AI Agents & ReAct loops, tool usage, autonomous planning, memory systems \\
+\hline
+LLM Engineering & Prompt engineering, evaluations, structured outputs, fine-tuning \\
+\hline
+Agentic AI & LangGraph, CrewAI, multi-agent orchestration \\
+\hline
+RAG Systems & Vector databases, chunking, retrieval pipelines, hybrid search \\
+\hline
+Applied AI & Shipping real-world AI-powered products end-to-end \\
+\hline
+Research & Long-horizon reasoning, memory architectures, self-reflection \\
+\hline
+\end{tabularx}
 
-</div>
+% ================= TECH STACK =================
 
----
+\section*{🛠️ Tech Stack}
 
-## 📊 GitHub Stats
+\subsection*{🌐 Frontend}
+React • Next.js • TypeScript • JavaScript • Tailwind CSS • HTML5 • CSS3
 
-<div align="center">
+\subsection*{⚙️ Backend}
+Node.js • Express.js • Python • FastAPI • REST APIs
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=hrdpaliwal93&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9&count_private=true" />
-&nbsp;&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrdpaliwal93&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&langs_count=8" />
+\subsection*{🗄️ Databases}
+MongoDB • PostgreSQL • MySQL • Redis • Supabase
 
-<br/><br/>
+\subsection*{🤖 AI / LLM Stack}
+OpenAI • Claude • LangChain • LangGraph • CrewAI • Hugging Face • Ollama • Pinecone • ChromaDB • FAISS
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=hrdpaliwal93&theme=tokyonight&hide_border=true&background=0d1117&ring=00d9ff&fire=ff6b6b&currStreakLabel=00d9ff&sideLabels=c9d1d9&dates=c9d1d9" width="60%"/>
+\subsection*{☁️ DevOps \& Tools}
+Docker • GitHub Actions • AWS • Vercel • Git • Linux • VS Code • Postman
 
-<br/><br/>
+% ================= LEARNING LOG =================
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=hrdpaliwal93&theme=tokyo-night&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ff6b6b&hide_border=true&area=true&area_color=00d9ff" width="100%"/>
+\section*{📚 Learning Log}
 
-</div>
+\begin{tcolorbox}[
+colback=black,
+colframe=accent,
+arc=3mm
+]
 
----
+\begin{itemize}
+    \item Currently Reading → Add books, papers, and AI research
+    \item Practicing → Building autonomous AI agents and workflows
+    \item Experimenting → LangGraph multi-agent memory loops
+    \item Following → Andrej Karpathy, Andrew Ng, Harrison Chase
+    \item 2025 Goal → Ship 3 AI-powered products from scratch
+\end{itemize}
 
+\end{tcolorbox}
 
+% ================= ROADMAP =================
 
+\section*{💡 AI Journey Roadmap}
 
+\begin{itemize}
+    \item ✅ Full Stack mastery — React, Node.js, Databases, APIs
+    \item ✅ Python for AI/ML
+    \item ✅ Prompt Engineering fundamentals
+    \item 🔄 LangChain \& RAG pipelines
+    \item 🔄 LangGraph \& agentic workflows
+    \item ⏳ Multi-agent systems (CrewAI, AutoGen)
+    \item ⏳ LLM fine-tuning \& evaluations
+    \item ⏳ Deploying AI agents at production scale
+    \item ⏳ Building AI-native SaaS products
+\end{itemize}
 
-## 📚 Learning Log
+% ================= GITHUB =================
 
-```
-📖 Currently Reading  →  [ Add book / paper / course ]
-🎯 Practicing         →  Building _______ agent that does _______
-🧪 Experimenting      →  LangGraph multi-agent memory loops
-🔭 Following          →  Andrej Karpathy · Andrew Ng · Harrison Chase
-🧠 2025 Goal          →  Ship 3 AI-powered products from scratch
-```
+\section*{📊 GitHub Focus}
 
----
+\begin{itemize}
+    \item Building AI-powered full stack products
+    \item Experimenting with autonomous agent systems
+    \item Learning advanced Applied AI engineering concepts
+    \item Exploring production-grade RAG architectures
+    \item Developing scalable AI-native workflows
+\end{itemize}
 
-## 💡 My AI Journey Roadmap
+\vspace{0.5cm}
 
-```
-✅  Full Stack mastery — React, Node, Databases, APIs
-✅  Python for AI/ML
-✅  Prompt Engineering fundamentals
-🔄  LangChain & RAG pipelines              ← in progress
-🔄  LangGraph & agentic workflows          ← in progress
-⏳  Multi-agent systems (CrewAI, AutoGen)
-⏳  LLM fine-tuning & evaluations
-⏳  Deploying AI agents at production scale
-⏳  Building & shipping AI-native SaaS
-```
+% ================= FOOTER =================
 
----
+\begin{center}
 
-## 🌐 Connect With Me
+\rule{0.7\linewidth}{0.5pt}
 
-<div align="center">
+\vspace{0.3cm}
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YOUR_TWITTER)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.com)
-[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
-[![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hrdpaliwal93)
+\textit{
+“The best engineers don't just write code — they build systems that think.”
+}
 
-</div>
+\vspace{0.3cm}
 
----
+⭐ If any of my work helps you, a star on GitHub genuinely means a lot.
 
-<div align="center">
+\end{center}
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="70%"/>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=fadeIn" width="100%"/>
-
-**"The best engineers don't just write code — they build systems that think."**
-
-⭐ _If any of my work helps you, drop a star — it genuinely keeps me going._
-
-</div>
+\end{document}
