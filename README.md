@@ -47,18 +47,7 @@ const hardik = {
 
 ## 🚀 What I'm Currently Into
 
-<div align="center">
 
-| 🧩 Area | 🔍 What I'm Exploring |
-|--------|----------------------|
-| 🤖 **AI Agents** | ReAct loops, tool-use, autonomous planning & memory |
-| 🧠 **LLM Engineering** | Prompt engineering, evals, fine-tuning, structured outputs |
-| 🔗 **Agentic AI** | Multi-agent orchestration, LangGraph, CrewAI |
-| 📚 **RAG Systems** | Vector DBs, chunking strategies, hybrid search |
-| 🛠️ **Applied AI** | Shipping real AI-powered products end-to-end |
-| 🔭 **Research** | Long-horizon reasoning, agent memory, self-reflection |
-
-</div>
 
 ---
 
@@ -95,7 +84,6 @@ const hardik = {
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
 </div>
 
@@ -106,12 +94,10 @@ const hardik = {
 ![Anthropic](https://img.shields.io/badge/Anthropic_Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=00d9ff)
-![CrewAI](https://img.shields.io/badge/CrewAI-FF6B6B?style=for-the-badge&logoColor=white)
+
 ![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+
 
 </div>
 
@@ -124,7 +110,7 @@ const hardik = {
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 </div>
@@ -148,38 +134,6 @@ const hardik = {
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=hrdpaliwal93&theme=tokyo-night&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ff6b6b&hide_border=true&area=true&area_color=00d9ff" width="100%"/>
 
 </div>
-
----
-
-
-
-
-
-## 📚 Learning Log
-
-```
-📖 Currently Reading  →  [ Add book / paper / course ]
-🎯 Practicing         →  Building _______ agent that does _______
-🧪 Experimenting      →  LangGraph multi-agent memory loops
-🔭 Following          →  Andrej Karpathy · Andrew Ng · Harrison Chase
-🧠 2025 Goal          →  Ship 3 AI-powered products from scratch
-```
-
----
-
-## 💡 My AI Journey Roadmap
-
-```
-✅  Full Stack mastery — React, Node, Databases, APIs
-✅  Python for AI/ML
-✅  Prompt Engineering fundamentals
-🔄  LangChain & RAG pipelines              ← in progress
-🔄  LangGraph & agentic workflows          ← in progress
-⏳  Multi-agent systems (CrewAI, AutoGen)
-⏳  LLM fine-tuning & evaluations
-⏳  Deploying AI agents at production scale
-⏳  Building & shipping AI-native SaaS
-```
 
 ---
 
